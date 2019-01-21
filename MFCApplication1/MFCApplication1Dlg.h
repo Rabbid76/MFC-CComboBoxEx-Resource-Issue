@@ -11,6 +11,5 @@ public:
 	CComboBoxEx m_ctrlComboEx1;
 
 	virtual BOOL OnInitDialog();
-	afx_msg void OnPaint();
 	DECLARE_MESSAGE_MAP()
 };

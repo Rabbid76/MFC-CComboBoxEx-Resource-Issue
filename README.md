@@ -73,6 +73,8 @@ BOOL CMFCApplication1Dlg::OnInitDialog()
 
 When scrolling the items of the list box, the GDI-resources of the application rapidly increase and never get released:
 
+See the image, which shows the effect and the increasing number of GDI-Objects in the task manager:
+
 ![issue](comboboxex_issue.gif)
 
 It seems this is related to the blue "highlighting" of the text items.
