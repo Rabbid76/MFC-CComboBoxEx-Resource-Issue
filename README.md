@@ -90,6 +90,7 @@ Scree scale 100%
 
 Build
 
+- Microsoft Visual Studio Version 15.9.5
 - Windows SDK Version 10.0.17763.0
 - Visual Studio 2017 (v141)
 - MFC in shared DLL
