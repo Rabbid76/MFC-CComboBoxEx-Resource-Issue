@@ -98,3 +98,7 @@ Build
 The issue accurse in both x64 Debug an Release configuration, so it seems not to be related to debug or optimization settings.
 
 Is this a bug in my tiny application or is this a (possibly know) windows system bug?
+
+---
+
+StackOverflow question: [MFC CComboBoxEx GDI Resource Leak](https://stackoverflow.com/questions/54297350/mfc-ccomboboxex-gdi-resource-leak)
