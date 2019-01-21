@@ -27,11 +27,9 @@ public:
 
   virtual void DoDataExchange( CDataExchange* pDX );
 
-	HICON m_hIcon;
 	CComboBoxEx m_ctrlComboEx1;
 
 	virtual BOOL OnInitDialog();
-	afx_msg void OnPaint();
 	DECLARE_MESSAGE_MAP()
 };
 ```
@@ -98,7 +96,8 @@ Build
 
 The issue accurse in both x64 Debug an Release configuration, so it seems not to be related to debug or optimization settings.
 
-Is this a bug in my tiny application or is this a (possibly know) windows system bug?
+Is this a bug in my tiny application or is this a (possibly know) windows system bug?  
+If this is a windows bug, then is there a workaround?
 
 ---
 

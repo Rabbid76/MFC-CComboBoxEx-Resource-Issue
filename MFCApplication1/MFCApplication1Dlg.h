@@ -7,7 +7,6 @@ public:
 
   virtual void DoDataExchange( CDataExchange* pDX );
 
-	HICON m_hIcon;
 	CComboBoxEx m_ctrlComboEx1;
 
 	virtual BOOL OnInitDialog();
